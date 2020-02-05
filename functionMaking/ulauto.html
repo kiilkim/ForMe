@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    ul {
+        list-style: none;
+        margin: 10;
+        padding: 10;
+    }
+     
+    .head-li {
+        float:left;
+        margin: 10;
+        padding: 10;
+        border:0;
+    }
+    </style>
+</head>
+<body>
+    
+<!--ul 세로로-->
+<!--ul 가로로 css에서 float 주면된다. class를 부여하라 -->
+    <ul>
+    <script>
+        
+        var lists = ["main ","genre ","insight ","visitor "];
+        var i = 0;
+
+        while(i<lists.length) {
+
+            
+            document.write('<li class="head-li">'+lists[i]+'</li>');
+
+            i++;
+
+        }
+    </script>
+    </ul>
+
+
+
+
+</body>
+</html>
